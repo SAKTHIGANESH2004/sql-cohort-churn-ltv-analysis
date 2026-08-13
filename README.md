@@ -20,7 +20,7 @@ End-to-end SQL analysis of customer behavior, retention, and customer lifetime v
 
 ### 1. Customer Segmentation
 
-**🖥️ Query**: [1_customer_segmentation.sql](1_Customer_segment.sql)
+**🖥️ Query**: [1_Customer_Segmentation](1_Customer_segment.sql)
 
 - Built a customer lifetime value (LTV) segmentation model using SQL window functions and aggregate metrics
 - Classified customers into High, Mid, and Low-value tiers based on total revenue contribution
@@ -41,7 +41,7 @@ End-to-end SQL analysis of customer behavior, retention, and customer lifetime v
 - Low-Value (2% revenue): Deploy targeted re-engagement and price-sensitive promotions to lift purchase frequency and convert dormant spenders
 
 ### 2. Customer Revenue by Cohort
-**🖥️ Query**: [2_cohort_analysis.sql](2_cohort_analysis.sql)
+**🖥️ Query**: [2_Cohort_Analysis.sql](2_cohort_analysis.sql)
 
 - Built cohort-based SQL queries to track revenue and customer counts by acquisition year
 - Grouped customers into cohorts using first purchase date
@@ -79,7 +79,7 @@ Investigate Monthly Revenue & Customer Trends (3 Month Rolling Average)
 
 **📈 Visualization:**
 
-![retention_analysis](/images/3_churn_cohort_year.png)
+![Retention_Analysis](/images/3_churn_cohort_year.png)
 
 📊 **Key Findings:**  
 - Cohort churn stabilizes at ~90% after 2-3 years, revealing a predictable long-term retention curve  
