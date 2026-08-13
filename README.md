@@ -10,7 +10,7 @@ End-to-end SQL analysis of customer behavior, retention, and customer lifetime v
 
 ## Clean Up Data
 
-**🖥️ Query**: [0_create_view.sql](0_create_view.sql)
+**🖥️ Query**: [0_create_view](0_create_view.sql)
 
 - Engineered a reusable SQL view combining transactional and customer-level data for downstream analysis
 - Aggregated raw sales data into revenue and order-level metrics
